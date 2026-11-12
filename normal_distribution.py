@@ -42,6 +42,7 @@ def main():
             print(" Please enter a number. \n")
             continue
         area, n = normal_area(z)
+        print(f" Subintervals used (n) : {n}")
         print(f" Area from 0 to z      : {area:.5f}")
 
 if __name__ == "__main__":
